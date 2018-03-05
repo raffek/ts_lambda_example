@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+      "es2015.promise"
+    ],
+    "noEmit": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "exclude": [
+    ".vscode",
+    ".serverless",
+    ".git",
+    "node_modules"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
